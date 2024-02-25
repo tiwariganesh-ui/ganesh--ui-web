@@ -1,0 +1,10 @@
+body{
+   background-image: url("../images/profile.JPG");
+   background-size: cover;
+}
+.contain{
+   background-color: rgba(0, 0, 0, 0.4);
+   height: 100vh;
+   margin-top: -20px;
+   margin-bottom: -30px;
+}
