@@ -61,10 +61,11 @@
                 roomPrice += amenitiPrice;
             }
             totalAmount = roomPrice * days;
+            totalAmount=totalAmount-advance;
             document.getElementById("lblRoom").innerHTML = roomType;
             document.getElementById("lblAmenities").innerHTML = amenities;
             document.getElementById("lblAdvance").innerHTML = advance;
-            document.getElementById("lblAmount").innerHTML= totalAmount-advance;
+            document.getElementById("lblAmount").innerHTML= totalAmount.toLocaleString("en-in",{style:"currency",currency:"INR"});
 
             var register = document.getElementById("register");
             register.innerHTML = (register.innerHTML=="Register")?"Edit":"Edit";

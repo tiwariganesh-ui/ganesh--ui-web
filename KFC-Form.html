@@ -47,7 +47,7 @@
 
         document.getElementById("lblMeal").innerHTML = mealName;
         document.getElementById("lblAdon").innerHTML = adOnName;
-        document.getElementById("lblTotal").innerHTML = mealPrice;
+        document.getElementById("lblTotal").innerHTML = mealPrice.toLocaleString("en-in",{style:"currency",currency:"INR"});
     }
 </script>
 <body class="container-fluid">
