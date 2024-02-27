@@ -9,3 +9,21 @@ body{
    margin-top: -20px;
    margin-bottom: -30px;
 }
+@media screen and (orientation:landscape) {
+   #contact{
+      display: flex;
+      justify-content: space-between;
+   }
+   #project{
+      display: flex;
+      justify-content: space-around;
+   }
+}
+@media screen and (orientation:portrait) {
+   #project{
+      display:block;
+   }
+   #contact{
+      display: block;
+   }
+}
