@@ -1,6 +1,7 @@
 body{
    background-image: url("../images/profile.JPG");
    background-size: cover;
+   background-repeat: no-repeat;
 }
 .contain{
    background-color: rgba(0, 0, 0, 0.4);
